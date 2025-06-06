@@ -2,6 +2,7 @@ import base64
 import zlib
 import marshal
 import types
+import time
 #please skid it to the max boss 
 #i was to lazy to add some GUI/CLI 
 def decode_payload(payload_str):
@@ -55,6 +56,6 @@ def main():
         except Exception as e:
             print(f"Error at step {depth}: {e}")
             break
-
+time.sleep(1000)
 if __name__ == "__main__":
     main()
