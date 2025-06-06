@@ -1,0 +1,12 @@
+Hello 
+
+Step 1: search for this: _ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'PAYLOAD'))
+
+The payload looks something like this (probably alot longer): "bGl0dGxlIGVhc3RlciBlZ2c="
+
+Step 2: Copy and paste the PAYLOAD into the "payload.txt" -file
+    important: dont copy the " b' " at the start and the "'" end
+
+Step 3: Run the "main.py" file:) 
+
+Tipp: if the conso
