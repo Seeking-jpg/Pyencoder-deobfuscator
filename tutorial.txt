@@ -1,12 +1,54 @@
-Hello 
+Gotcha! Here’s a clean, friendly tutorial text formatted nicely for a GitHub README or a `.txt` file:
 
-Step 1: search for this: _ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'PAYLOAD'))
+---
 
-The payload looks something like this (probably alot longer): "bGl0dGxlIGVhc3RlciBlZ2c="
+# How to Decode the Payload
 
-Step 2: Copy and paste the PAYLOAD into the "payload.txt" -file
-    important: dont copy the " b' " at the start and the "'" end
+Hello!
 
-Step 3: Run the "main.py" file:) 
+### Step 1
 
-Tipp: if the conso
+Search your script for this pattern:
+
+```python
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'PAYLOAD'))
+```
+
+The **PAYLOAD** is usually a long base64 string, like this (but longer):
+
+```
+bGl0dGxlIGVhc3RlciBlZ2c=
+```
+
+---
+
+### Step 2
+
+Copy **only** the payload string inside the `b'...'` —
+**Do NOT copy** the `b'` at the start or the trailing `'` at the end.
+
+Paste this string into a file called:
+
+```
+payload.txt
+```
+
+---
+
+### Step 3
+
+Run the script:
+
+```
+python main.py
+```
+
+---
+
+### Tip
+
+If the console closes immediately or shows an error, open the console manually (e.g., CMD on Windows) and run the script again to see the full error message. Google the error if needed!
+
+---
+
+Let me know if you want me to tailor it further for markdown or add any extra notes!
